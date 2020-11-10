@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav"
+    app:startDestination="@id/newsFeed">
+
+    <fragment
+        android:id="@+id/newsFeed"
+        android:name="com.example.bihaber.NewsDetailsFragment"
+        android:label="fragment_news_details"
+        tools:layout="@layout/fragment_news_details" />
+    <fragment
+        android:id="@+id/newsFavorite"
+        android:name="com.example.bihaber.NewsFavoriteFragment"
+        android:label="fragment_news_favorite"
+        tools:layout="@layout/fragment_news_favorite" />
+
+    <fragment
+        android:id="@+id/newsSearch"
+        android:name="com.example.bihaber.NewsSearchFragment"
+        android:label="fragment_news_search"
+        tools:layout="@layout/fragment_news_search" />
+    <fragment
+        android:id="@+id/newsSettings"
+        android:name="com.example.bihaber.NewsSettingsFragment"
+        android:label="fragment_news_settings"
+        tools:layout="@layout/fragment_news_settings" />
+</navigation>

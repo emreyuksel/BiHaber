@@ -10,8 +10,14 @@ android {
         targetSdkVersion 29
         versionCode 1
         versionName "1.0"
+        multiDexEnabled true
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
     }
 
     buildTypes {
@@ -24,7 +30,8 @@ android {
 
 dependencies {
 
-    def lifecycle_version ="2.2.0"
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    def lifecycle_version = "2.2.0"
     def navigation_version = "2.3.1"
     def room_version = "2.2.5"
     def retrofit_version = "2.9.0"
