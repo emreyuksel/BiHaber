@@ -1,4 +1,4 @@
-package com.example.bihaber;
+package com.yuksels.bihaber;
 
 import org.junit.Test;
 

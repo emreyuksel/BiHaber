@@ -1,4 +1,4 @@
-package com.example.bihaber;
+package com.yuksels.bihaber;
 
 import android.os.Bundle;
 
@@ -8,10 +8,10 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-public class NewsSearchFragment extends Fragment {
+public class NewsDetailsFragment extends Fragment {
 
 
-    public NewsSearchFragment() {
+    public NewsDetailsFragment() {
         // Required empty public constructor
     }
 
@@ -24,6 +24,6 @@ public class NewsSearchFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_news_search, container, false);
+        return inflater.inflate(R.layout.fragment_news_details, container, false);
     }
 }
