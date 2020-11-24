@@ -1,4 +1,4 @@
-package com.yuksels.bihaber;
+package com.yuksels.bihaber.view;
 
 import android.os.Bundle;
 
@@ -8,9 +8,11 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-public class NewsSettingsFragment extends Fragment {
+import com.yuksels.bihaber.R;
 
-    public NewsSettingsFragment() {
+public class NewsFavoriteFragment extends Fragment {
+
+    public NewsFavoriteFragment() {
         // Required empty public constructor
     }
 
@@ -23,6 +25,6 @@ public class NewsSettingsFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_news_settings, container, false);
+        return inflater.inflate(R.layout.fragment_news_favorite, container, false);
     }
 }

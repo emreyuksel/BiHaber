@@ -1,4 +1,4 @@
-package com.yuksels.bihaber;
+package com.yuksels.bihaber.view;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.navigation.fragment.NavHostFragment;
