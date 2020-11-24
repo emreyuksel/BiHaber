@@ -7,23 +7,23 @@
 
     <fragment
         android:id="@+id/newsFeed"
-        android:name="com.yuksels.bihaber.NewsDetailsFragment"
+        android:name="com.yuksels.bihaber.view.NewsDetailsFragment"
         android:label="fragment_news_details"
         tools:layout="@layout/fragment_news_details" />
     <fragment
         android:id="@+id/newsFavorite"
-        android:name="com.yuksels.bihaber.NewsFavoriteFragment"
+        android:name="com.yuksels.bihaber.view.NewsFavoriteFragment"
         android:label="fragment_news_favorite"
         tools:layout="@layout/fragment_news_favorite" />
 
     <fragment
         android:id="@+id/newsSearch"
-        android:name="com.yuksels.bihaber.NewsSearchFragment"
+        android:name="com.yuksels.bihaber.view.NewsSearchFragment"
         android:label="fragment_news_search"
         tools:layout="@layout/fragment_news_search" />
     <fragment
         android:id="@+id/newsSettings"
-        android:name="com.yuksels.bihaber.NewsSettingsFragment"
+        android:name="com.yuksels.bihaber.view.NewsSettingsFragment"
         android:label="fragment_news_settings"
         tools:layout="@layout/fragment_news_settings" />
 </navigation>
